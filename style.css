@@ -698,6 +698,7 @@ li{
     align-items: center;
     gap: 0.7rem;
     transition: background 0.3s, transform 0.2s, box-shadow 0.3s;
+    height: 50px;
 }
 .download-pdf i {
     font-size: 1.3rem;
@@ -709,10 +710,44 @@ li{
 }
 @media (max-width: 600px) {
     .download-pdf {
-        top: 10px;
+        bottom: 22px;
         right: 10px;
         font-size: 0.98rem;
         padding: 0.5rem 1rem;
+        height: 50px;
+        min-width: 0;
+        width: 50px;
+        border-radius: 25px;
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        box-shadow: 0 2px 8px rgba(108, 79, 153, 0.13);
+        white-space: nowrap;
+        overflow: hidden;
+        gap: 0.7rem;
+        transition: width 0.3s cubic-bezier(.4,2,.6,1), background 0.2s, box-shadow 0.3s, color 0.2s;
+    }
+    .download-pdf .pdf-label {
+        opacity: 0;
+        max-width: 0;
+        margin-right: 0.5rem;
+        font-size: 0.98rem;
+        font-weight: 600;
+        white-space: nowrap;
+        transition: opacity 0.2s, max-width 0.3s, margin-right 0.3s;
+        color: #fff;
+        letter-spacing: 0px;
+    }
+    .download-pdf:hover {
+        width: 170px;
+        background: linear-gradient(90deg, var(--accent-color) 60%, var(--primary-color) 100%);
+        box-shadow: 0 8px 32px rgba(108, 79, 153, 0.18);
+        color: #fff;
+    }
+    .download-pdf:hover .pdf-label {
+        opacity: 1;
+        max-width: 120px;
+        margin-right: 0.7rem;
     }
 }
 @media print {
