@@ -303,6 +303,10 @@ h2 i {
     border: 1px solid rgba(233, 30, 99, 0.1);
     position: relative;
     overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
 }
 
 .certificate-item::before {
@@ -595,7 +599,7 @@ h2 i {
 @media (max-width: 600px) {
     .certificate-img {
         max-width: 100%;
-        height: 160px;
+        height: auto;
     }
     .certificate-modal .modal-content {
         max-width: 98vw;
@@ -663,4 +667,8 @@ h2 i {
     .portfolio .card {
         padding: 1rem 0.5rem;
     }
+}
+
+li{
+    margin-top: 0.5rem;
 }
