@@ -405,6 +405,12 @@ h2 i {
     .skills-grid {
         grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
     }
+
+    .profile-img {
+        width: 120px;
+        height: 120px;
+        margin-bottom: 1.2rem;
+    }
 }
 
 /* Print Styles */
@@ -783,4 +789,18 @@ li{
     .whatsapp-float {
         display: none !important;
     }
+}
+
+.profile-img {
+    display: block;
+    margin: 0 auto 2.2rem auto;
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 50%;
+    box-shadow: 0 4px 18px rgba(108, 79, 153, 0.13);
+    border: 4px solid var(--white);
+    background: var(--light-bg);
+    position: relative;
+    z-index: 2;
 }
