@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+    <url>
+        <loc>https://karendayanna.com/</loc>
+        <lastmod>2024-12-27</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>1.0</priority>
+        <image:image>
+            <image:loc>https://karendayanna.com/images/me.jpg</image:loc>
+            <image:title>Karen Dayanna Peña Mila - Veterinaria</image:title>
+            <image:caption>Estudiante de Medicina Veterinaria en Bogotá con experiencia práctica</image:caption>
+        </image:image>
+        <image:image>
+            <image:loc>https://karendayanna.com/images/cuidados_animales.jpg</image:loc>
+            <image:title>Certificado Cuidado y bienestar animal</image:title>
+            <image:caption>Certificación en micro-learning de Uniagraria</image:caption>
+        </image:image>
+        <image:image>
+            <image:loc>https://karendayanna.com/images/profilaxis.jpg</image:loc>
+            <image:title>Certificado Profilaxis de la Rabia</image:title>
+            <image:caption>Certificación OPS 2025</image:caption>
+        </image:image>
+    </url>
+</urlset> 

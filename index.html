@@ -3,56 +3,143 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Karen Dayanna Peña Mila - CV</title>
+    
+    <!-- SEO Meta Tags -->
+    <title>Karen Dayanna Peña Mila - Veterinaria en Bogotá | CV Profesional</title>
+    <meta name="description" content="Karen Dayanna Peña Mila - Estudiante de Medicina Veterinaria en Bogotá con experiencia práctica en clínicas veterinarias. Especialista en cirugía, anestesiología y medicina interna de pequeños y grandes animales.">
+    <meta name="keywords" content="Karen Dayanna Peña Mila, veterinaria Bogotá, medicina veterinaria, cirugía veterinaria, anestesiología animal, estudiante veterinaria, auxiliar veterinaria, cuidado animal, Ambulancia Animal, Universitaria Agraria Colombia">
+    <meta name="author" content="Karen Dayanna Peña Mila">
+    <meta name="robots" content="index, follow">
+    <meta name="googlebot" content="index, follow">
+    <link rel="canonical" href="https://karendayanna.com/">
+    
+    <!-- Open Graph Meta Tags for Social Media -->
+    <meta property="og:title" content="Karen Dayanna Peña Mila - Veterinaria Profesional en Bogotá">
+    <meta property="og:description" content="Estudiante de Medicina Veterinaria con experiencia práctica en clínicas veterinarias. Especializada en cirugía, anestesiología y medicina interna de animales.">
+    <meta property="og:image" content="https://karendayanna.com/images/me.jpg">
+    <meta property="og:url" content="https://karendayanna.com/">
+    <meta property="og:type" content="profile">
+    <meta property="og:site_name" content="Karen Dayanna Peña Mila - CV Profesional">
+    <meta property="og:locale" content="es_CO">
+    
+    <!-- Twitter Card Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Karen Dayanna Peña Mila - Veterinaria en Bogotá">
+    <meta name="twitter:description" content="Estudiante de Medicina Veterinaria con experiencia práctica en clínicas veterinarias. Especializada en cirugía, anestesiología y medicina interna.">
+    <meta name="twitter:image" content="https://karendayanna.com/images/me.jpg">
+    
+    <!-- Additional SEO Meta Tags -->
+    <meta name="geo.region" content="CO-DC">
+    <meta name="geo.placename" content="Bogotá">
+    <meta name="geo.position" content="4.7109886;-74.072092">
+    <meta name="ICBM" content="4.7109886, -74.072092">
+    
     <link rel="icon" href="./images/kd.png">
+    <link rel="apple-touch-icon" href="./images/kd.png">
+    
+    <!-- Preload Critical Resources -->
+    <link rel="preload" href="./images/me.jpg" as="image">
+    <link rel="preload" href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" as="style">
+    
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Schema.org Structured Data -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Karen Dayanna Peña Mila",
+        "jobTitle": "Estudiante de Medicina Veterinaria",
+        "description": "Estudiante de Medicina Veterinaria en etapa final de formación académica, con experiencia práctica como auxiliar veterinaria en el manejo de pequeños y grandes animales.",
+        "url": "https://karendayanna.com/",
+        "image": "https://karendayanna.com/images/me.jpg",
+        "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Bogotá",
+            "addressRegion": "D.C.",
+            "addressCountry": "Colombia"
+        },
+        "telephone": "+57 311 593 2343",
+        "email": "dayanna_138@hotmail.com",
+        "sameAs": [
+            "https://www.linkedin.com/in/karen-dayanna-pe%C3%B1a-mila-6583ab218/",
+            "https://karendayanna.com/",
+            "https://karendayanna.netlify.app/"
+        ],
+        "knowsAbout": [
+            "Medicina Veterinaria",
+            "Cirugía Veterinaria",
+            "Anestesiología Animal",
+            "Medicina Interna Veterinaria",
+            "Cuidado Animal",
+            "Vacunación Animal",
+            "Asistencia Quirúrgica"
+        ],
+        "alumniOf": {
+            "@type": "EducationalOrganization",
+            "name": "Universitaria Agraria de Colombia"
+        },
+        "worksFor": {
+            "@type": "Organization",
+            "name": "Ambulancia Animal"
+        }
+    }
+    </script>
 </head>
-<body>
+<body itemscope itemtype="https://schema.org/Person">
     <div class="container">
-        <button class="download-pdf" onclick="window.print()"><i class="fas fa-file-pdf"></i> <span class="pdf-label">Descargar</span></button>
-        <a href="https://wa.me/573115932343" class="whatsapp-float" target="_blank" title="Contáctame por WhatsApp">
-            <i class="fab fa-whatsapp"></i>
+        <button class="download-pdf" onclick="window.print()" aria-label="Descargar CV en PDF"><i class="fas fa-file-pdf" aria-hidden="true"></i> <span class="pdf-label">Descargar</span></button>
+        <a href="https://wa.me/573115932343" class="whatsapp-float" target="_blank" rel="noopener" title="Contáctame por WhatsApp" aria-label="Contactar por WhatsApp">
+            <i class="fab fa-whatsapp" aria-hidden="true"></i>
             <span class="wa-label">Contactame</span>
         </a>
-        <header class="header">
+        
+        <header class="header" role="banner">
             <div class="profile-section">
-                <img src="./images/me.jpg" alt="Karen Dayanna Peña Mila" class="profile-img">
-                <h1 class="name">Karen Dayanna Peña Mila</h1>
+                <img src="./images/me.jpg" alt="Karen Dayanna Peña Mila - Estudiante de Medicina Veterinaria en Bogotá" class="profile-img" itemprop="image" width="150" height="150">
+                <h1 class="name" itemprop="name">Karen Dayanna Peña Mila</h1>
                 <div class="contact-info">
-                    <p><i class="fas fa-map-marker-alt"></i> Bogotá D.C.</p>
-                    <p><i class="fas fa-phone"></i> 311 593 2343</p>
-                    <p><i class="fas fa-envelope"></i> dayanna_138@hotmail.com</p>
+                    <p itemprop="address" itemscope itemtype="https://schema.org/PostalAddress">
+                        <i class="fas fa-map-marker-alt" aria-hidden="true"></i> 
+                        <span itemprop="addressLocality">Bogotá</span> <span itemprop="addressRegion">D.C.</span>
+                    </p>
+                    <p><i class="fas fa-phone" aria-hidden="true"></i> <span itemprop="telephone">311 593 2343</span></p>
+                    <p><i class="fas fa-envelope" aria-hidden="true"></i> <span itemprop="email">dayanna_138@hotmail.com</span></p>
                 </div>
                 <div class="web-links">
-                    <a href="https://www.linkedin.com/in/karen-dayanna-pe%C3%B1a-mila-6583ab218/" target="_blank" class="linkedin"><i class="fab fa-linkedin"></i> LinkedIn </a>
-                    <a href="https://karendayanna.com/" target="_blank" class="website"><i class="fas fa-globe"></i> https://karendayanna.com/</a>
+                    <a href="https://www.linkedin.com/in/karen-dayanna-pe%C3%B1a-mila-6583ab218/" target="_blank" rel="noopener" class="linkedin" itemprop="sameAs" aria-label="Perfil de LinkedIn">
+                        <i class="fab fa-linkedin" aria-hidden="true"></i> LinkedIn 
+                    </a>
+                    <a href="https://karendayanna.com/" target="_blank" rel="noopener" class="website" itemprop="url" aria-label="Sitio web personal">
+                        <i class="fas fa-globe" aria-hidden="true"></i> https://karendayanna.com/
+                    </a>
                 </div>
             </div>
         </header>
 
-        <div class="main-content">
-            <div class="left-column">
+        <main class="main-content" role="main">
+            <aside class="left-column" role="complementary">
                 <section class="profile">
-                    <h2><i class="fas fa-user-md"></i> Perfil Profesional</h2>
-                    <p>Estudiante de Medicina Veterinaria en etapa final de formación académica, con experiencia práctica como auxiliar veterinaria en el manejo de pequeños y grandes animales. Apasionada por el bienestar animal y comprometida con la excelencia en la atención veterinaria.</p>
+                    <h2><i class="fas fa-user-md" aria-hidden="true"></i> Perfil Profesional</h2>
+                    <p itemprop="description">Estudiante de Medicina Veterinaria en etapa final de formación académica, con experiencia práctica como auxiliar veterinaria en el manejo de pequeños y grandes animales. Apasionada por el bienestar animal y comprometida con la excelencia en la atención veterinaria.</p>
                 </section>
 
                 <section class="objective">
-                    <h2><i class="fas fa-bullseye"></i> Objetivo</h2>
+                    <h2><i class="fas fa-bullseye" aria-hidden="true"></i> Objetivo</h2>
                     <div class="card">
                         <p>Interesada en realizar mis prácticas profesionales en una clínica veterinaria con énfasis en:</p>
                         <ul class="highlight-list">
-                            <li><i class="fas fa-check"></i> Cirugía</li>
-                            <li><i class="fas fa-check"></i> Anestesiología</li>
-                            <li><i class="fas fa-check"></i> Medicina interna</li>
+                            <li><i class="fas fa-check" aria-hidden="true"></i> Cirugía</li>
+                            <li><i class="fas fa-check" aria-hidden="true"></i> Anestesiología</li>
+                            <li><i class="fas fa-check" aria-hidden="true"></i> Medicina interna</li>
                         </ul>
                     </div>
                 </section>
 
                 <section class="career-projection">
-                    <h2><i class="fas fa-chart-line"></i> Proyección</h2>
+                    <h2><i class="fas fa-chart-line" aria-hidden="true"></i> Proyección</h2>
                     <div class="timeline">
                         <div class="timeline-item">
                             <h3>Corto Plazo</h3>
@@ -66,65 +153,70 @@
                 </section>
 
                 <section class="languages">
-                    <h2><i class="fas fa-language"></i> Idiomas</h2>
+                    <h2><i class="fas fa-language" aria-hidden="true"></i> Idiomas</h2>
                     <div class="card">
                         <ul class="highlight-list">
-                            <li><i class="fas fa-check"></i> Español (Nativo)</li>
-                            <li><i class="fas fa-check"></i> Inglés (Intermedio)</li>
+                            <li><i class="fas fa-check" aria-hidden="true"></i> Español (Nativo)</li>
+                            <li><i class="fas fa-check" aria-hidden="true"></i> Inglés (Intermedio)</li>
                         </ul>
                     </div>
                 </section>
-            </div>
+            </aside>
 
             <div class="right-column">
                 <section class="skills">
-                    <h2><i class="fas fa-star"></i> Habilidades Clave</h2>
-                    <div class="skills-grid">
+                    <h2><i class="fas fa-star" aria-hidden="true"></i> Habilidades Clave</h2>
+                    <div class="skills-grid" itemprop="knowsAbout">
                         <div class="skill-item">
-                            <i class="fas fa-stethoscope"></i>
+                            <i class="fas fa-stethoscope" aria-hidden="true"></i>
                             <p>Atención clínica integral</p>
                         </div>
                         <div class="skill-item">
-                            <i class="fas fa-syringe"></i>
+                            <i class="fas fa-syringe" aria-hidden="true"></i>
                             <p>Vacunación y muestras</p>
                         </div>
                         <div class="skill-item">
-                            <i class="fas fa-paw"></i>
+                            <i class="fas fa-paw" aria-hidden="true"></i>
                             <p>Asistencia quirúrgica</p>
                         </div>
                         <div class="skill-item">
-                            <i class="fas fa-pills"></i>
+                            <i class="fas fa-pills" aria-hidden="true"></i>
                             <p>Administración medicamentos</p>
                         </div>
                         <div class="skill-item">
-                            <i class="fas fa-hospital"></i>
+                            <i class="fas fa-hospital" aria-hidden="true"></i>
                             <p>Hospitalización</p>
                         </div>
                         <div class="skill-item">
-                            <i class="fas fa-clipboard-list"></i>
+                            <i class="fas fa-clipboard-list" aria-hidden="true"></i>
                             <p>Gestión administrativa</p>
                         </div>
                         <div class="skill-item">
-                            <i class="fas fa-heart"></i>
+                            <i class="fas fa-heart" aria-hidden="true"></i>
                             <p>Atención al cliente</p>
                         </div>
                         <div class="skill-item">
-                            <i class="fas fa-users"></i>
+                            <i class="fas fa-users" aria-hidden="true"></i>
                             <p>Trabajo en equipo</p>
                         </div>
                     </div>
                 </section>
 
-                <section class="experience">
-                    <h2><i class="fas fa-briefcase"></i> Experiencia</h2>
+                <section class="experience" itemprop="workHistory">
+                    <h2><i class="fas fa-briefcase" aria-hidden="true"></i> Experiencia</h2>
                     <div class="experience-timeline">
-                        <div class="experience-item">
+                        <article class="experience-item" itemscope itemtype="https://schema.org/WorkExperience">
                             <div class="experience-header">
-                                <h3>Auxiliar Veterinaria</h3>
-                                <span class="company">Ambulancia Animal</span>
-                                <span class="period">2023 - Actual</span>
+                                <h3 itemprop="jobTitle">Auxiliar Veterinaria</h3>
+                                <span class="company" itemprop="hiringOrganization" itemscope itemtype="https://schema.org/Organization">
+                                    <span itemprop="name">Ambulancia Animal</span>
+                                </span>
+                                <span class="period">
+                                    <time itemprop="startDate" datetime="2023">2023</time> - 
+                                    <time itemprop="endDate" datetime="2024">Actual</time>
+                                </span>
                             </div>
-                            <ul class="experience-details">
+                            <ul class="experience-details" itemprop="description">
                                 <li>Asistencia en procedimientos clínicos y quirúrgicos, incluyendo preparación del paciente y monitoreo.</li>
                                 <li>Contención segura de perros y gatos para exámenes, toma de muestras y tratamientos.</li>
                                 <li>Apoyo en administración de medicamentos y seguimiento en hospitalización y consulta diaria.</li>
@@ -133,93 +225,105 @@
                                 <li>Atención al tutor: entrega de indicaciones posquirúrgicas, vacunales y preventivas.</li>
                                 <li>Tareas administrativas: actualización de historias clínicas, agendas y registro de pacientes.</li>
                             </ul>
-                        </div>
-                        <div class="experience-item">
+                        </article>
+                        
+                        <article class="experience-item" itemscope itemtype="https://schema.org/WorkExperience">
                             <div class="experience-header">
-                                <h3>Auxiliar Veterinaria en Finca</h3>
-                                <span class="company">Producción de Bovinos, Caprinos y Porcinos</span>
-                                <span class="period">2023</span>
+                                <h3 itemprop="jobTitle">Auxiliar Veterinaria en Finca</h3>
+                                <span class="company" itemprop="hiringOrganization" itemscope itemtype="https://schema.org/Organization">
+                                    <span itemprop="name">Producción de Bovinos, Caprinos y Porcinos</span>
+                                </span>
+                                <span class="period">
+                                    <time itemprop="startDate" datetime="2023">2023</time>
+                                </span>
                             </div>
-                            <ul class="experience-details">
+                            <ul class="experience-details" itemprop="description">
                                 <li>Desparasitación y vacunación de bovinos, cabras y cerdos.</li>
                                 <li>Apoyo en manejo sanitario y productivo de animales de granja.</li>
                                 <li>Enfasis en ayuda a la producción y manejo de caprinos y porcinos.</li>
                             </ul>
-                        </div>
-                        <div class="experience-item">
+                        </article>
+                        
+                        <article class="experience-item" itemscope itemtype="https://schema.org/WorkExperience">
                             <div class="experience-header">
-                                <h3>Auxiliar Veterinaria</h3>
-                                <span class="company">Animal World</span>
-                                <span class="period">2022</span>
+                                <h3 itemprop="jobTitle">Auxiliar Veterinaria</h3>
+                                <span class="company" itemprop="hiringOrganization" itemscope itemtype="https://schema.org/Organization">
+                                    <span itemprop="name">Animal World</span>
+                                </span>
+                                <span class="period">
+                                    <time itemprop="startDate" datetime="2022">2022</time>
+                                </span>
                             </div>
-                            <ul class="experience-details">
+                            <ul class="experience-details" itemprop="description">
                                 <li>Administración de animales</li>
                                 <li>Auxiliar en consultas y vacunación</li>
                             </ul>
-                        </div>
+                        </article>
                     </div>
                 </section>
 
-                <section class="education">
-                    <h2><i class="fas fa-graduation-cap"></i> Educación</h2>
-                    <div class="education-item">
-                        <h3>Medicina Veterinaria</h3>
-                        <p class="institution">Universitaria Agraria de Colombia</p>
+                <section class="education" itemprop="education">
+                    <h2><i class="fas fa-graduation-cap" aria-hidden="true"></i> Educación</h2>
+                    <div class="education-item" itemscope itemtype="https://schema.org/EducationalOccupationalCredential">
+                        <h3 itemprop="credentialCategory">Medicina Veterinaria</h3>
+                        <p class="institution" itemprop="sourceOrganization" itemscope itemtype="https://schema.org/EducationalOrganization">
+                            <span itemprop="name">Universitaria Agraria de Colombia</span>
+                        </p>
                         <p class="details">9° semestre - Próximo a pasantías</p>
                         <p class="achievements">Promedio académico destacado</p>
                     </div>
                 </section>
 
                 <section class="certificates">
-                    <h2><i class="fas fa-certificate"></i> Certificaciones</h2>
+                    <h2><i class="fas fa-certificate" aria-hidden="true"></i> Certificaciones</h2>
                     <div class="certificates-grid">
-                        <div class="certificate-item">
-                            <img src="./images/cuidados_animales.jpg" alt="Cuidado y bienestar animal" class="certificate-img" data-full="./images/cuidados_animales.jpg" />
-                            <h3>Cuidado y bienestar animal</h3>
-                            <p>Certificación en micro-learning, Uniagraria</p>
-                        </div>
-                        <div class="certificate-item">
-                            <img src="./images/profilaxis.jpg" alt="Certificado Profilaxis de la Rabia" class="certificate-img" data-full="./images/profilaxis.jpg" />
-                            <h3>Profilaxis de la Rabia</h3>
-                            <p>Certificación OPS, 2025</p>
-                        </div>
+                        <article class="certificate-item" itemscope itemtype="https://schema.org/EducationalOccupationalCredential">
+                            <img src="./images/cuidados_animales.jpg" alt="Certificado de Cuidado y bienestar animal - Uniagraria" class="certificate-img" data-full="./images/cuidados_animales.jpg" loading="lazy" width="200" height="150" />
+                            <h3 itemprop="name">Cuidado y bienestar animal</h3>
+                            <p itemprop="description">Certificación en micro-learning, <span itemprop="sourceOrganization">Uniagraria</span></p>
+                        </article>
+                        <article class="certificate-item" itemscope itemtype="https://schema.org/EducationalOccupationalCredential">
+                            <img src="./images/profilaxis.jpg" alt="Certificado Profilaxis de la Rabia - OPS 2025" class="certificate-img" data-full="./images/profilaxis.jpg" loading="lazy" width="200" height="150" />
+                            <h3 itemprop="name">Profilaxis de la Rabia</h3>
+                            <p itemprop="description">Certificación <span itemprop="sourceOrganization">OPS</span>, <time itemprop="dateCreated" datetime="2025">2025</time></p>
+                        </article>
                     </div>
-                    <div id="certificate-modal" class="certificate-modal">
-                        <span class="close-modal">&times;</span>
+                    <div id="certificate-modal" class="certificate-modal" role="dialog" aria-labelledby="modal-title" aria-hidden="true">
+                        <span class="close-modal" aria-label="Cerrar modal">&times;</span>
                         <img class="modal-content" id="modal-img" alt="Certificado en grande" />
                     </div>
                 </section>
 
                 <section class="references">
-                    <h2><i class="fas fa-address-book"></i> Referencias</h2>
+                    <h2><i class="fas fa-address-book" aria-hidden="true"></i> Referencias</h2>
                     <div class="references-grid">
-                        <div class="reference-item">
-                            <h3>Catalina Gómez</h3>
-                            <p><b>Administradora </b><br> Ambulancia Animal</p>
-                            <p><i class="fas fa-phone"></i> 316 343 3224</p>
-                        </div>
-                        <div class="reference-item">
-                            <h3>Kelly Ramos</h3>
-                            <p><b>Medica Veterinaria</b> <br> Medica Independiente</p>
-                            <p><i class="fas fa-phone"></i> 311 202 9185</p>
-                        </div>
+                        <article class="reference-item" itemscope itemtype="https://schema.org/Person">
+                            <h3 itemprop="name">Catalina Gómez</h3>
+                            <p><b itemprop="jobTitle">Administradora</b><br> <span itemprop="worksFor">Ambulancia Animal</span></p>
+                            <p><i class="fas fa-phone" aria-hidden="true"></i> <span itemprop="telephone">316 343 3224</span></p>
+                        </article>
+                        <article class="reference-item" itemscope itemtype="https://schema.org/Person">
+                            <h3 itemprop="name">Kelly Ramos</h3>
+                            <p><b itemprop="jobTitle">Medica Veterinaria</b> <br> <span itemprop="worksFor">Medica Independiente</span></p>
+                            <p><i class="fas fa-phone" aria-hidden="true"></i> <span itemprop="telephone">311 202 9185</span></p>
+                        </article>
                     </div>
                 </section>
 
                 <section class="portfolio">
-                    <h2><i class="fas fa-globe"></i> Portafolio Web</h2>
+                    <h2><i class="fas fa-globe" aria-hidden="true"></i> Portafolio Web</h2>
                     <div class="card">
-                        <a href="https://karendayanna.netlify.app/" target="_blank" class="website-link">
-                            <i class="fas fa-external-link-alt"></i> karendayannanetlify.com
+                        <a href="https://karendayanna.netlify.app/" target="_blank" rel="noopener" class="website-link" itemprop="sameAs" aria-label="Ver portafolio web">
+                            <i class="fas fa-external-link-alt" aria-hidden="true"></i> karendayannanetlify.com
                         </a>
                         <p>Visita mi portafolio web para ver más sobre mi experiencia, proyectos y recomendaciones en el área veterinaria.</p>
                     </div>
                 </section>
             </div>
-            <img src="./images/cuidados_animales.jpg" alt="Certificado Cuida a tu Mascota" class="certificate-img" data-full="./images/cuidados_animales.jpg" />
-            <img src="./images/profilaxis.jpg" alt="Certificado Profilaxis de la Rabia" class="certificate-img" data-full="./images/profilaxis.jpg" />
+            <img src="./images/cuidados_animales.jpg" alt="Certificado Cuida a tu Mascota" class="certificate-img" data-full="./images/cuidados_animales.jpg" style="display: none;" />
+            <img src="./images/profilaxis.jpg" alt="Certificado Profilaxis de la Rabia" class="certificate-img" data-full="./images/profilaxis.jpg" style="display: none;" />
 
-        </div>
+        </main>
     </div>
     <script src="app.js"></script>
 </body>

@@ -1,0 +1,16 @@
+User-agent: *
+Allow: /
+
+# Permitir acceso a todos los archivos importantes
+Allow: /*.css$
+Allow: /*.js$
+Allow: /*.jpg$
+Allow: /*.png$
+Allow: /*.gif$
+Allow: /*.webp$
+
+# Sitemap location
+Sitemap: https://karendayanna.com/sitemap.xml
+
+# Crawl-delay para ser amigable con los servidores
+Crawl-delay: 1 
