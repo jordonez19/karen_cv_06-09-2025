@@ -632,28 +632,99 @@ h2 i {
     margin-top: 1rem;
     box-shadow: 0 2px 12px rgba(233,30,99,0.08);
 }
-.portfolio .website-link {
-    display: inline-flex;
-    align-items: center;
-    gap: 0.5rem;
-    background: linear-gradient(90deg, var(--primary-color) 60%, var(--accent-color) 100%);
-    color: #fff;
-    padding: 0.5rem 1.2rem;
-    border-radius: 25px;
-    font-weight: 500;
-    text-decoration: none;
-    font-size: 1rem;
-    margin-bottom: 0.7rem;
-    box-shadow: 0 2px 8px rgba(156,39,176,0.08);
-    transition: background 0.3s, transform 0.2s, box-shadow 0.3s;
-}
-.portfolio .website-link:hover {
-    transform: translateY(-2px) scale(1.04);
-    box-shadow: 0 4px 16px rgba(233,30,99,0.13);
-    text-decoration: underline;
-}
 .portfolio .website-link i {
     font-size: 1.2rem;
+}
+
+/* Services Card Enhancements */
+.services-highlight {
+    background: var(--white);
+    border: 1px solid rgba(108, 79, 153, 0.2);
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.about-me-card, .services-content, .why-trust {
+    padding: 1rem;
+    border-radius: 12px;
+    background: rgba(249, 161, 188, 0.03);
+}
+
+.about-me-card h3, .services-content h3, .why-trust h3 {
+    color: var(--primary-color);
+    margin-bottom: 1rem;
+    display: flex;
+    align-items: center;
+    gap: 0.8rem;
+    font-size: 1.2rem;
+    border-bottom: 1px solid rgba(108, 79, 153, 0.1);
+    padding-bottom: 0.5rem;
+}
+
+.about-me-card p {
+    margin-bottom: 1rem;
+    line-height: 1.6;
+}
+
+.services-list, .trust-list {
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 1rem;
+}
+
+.services-list li, .trust-list li {
+    display: flex;
+    align-items: center;
+    gap: 0.8rem;
+    padding: 0.8rem;
+    background: var(--white);
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.02);
+    transition: transform 0.2s ease;
+    border: 1px solid rgba(142, 124, 195, 0.05);
+}
+
+.services-list li:hover, .trust-list li:hover {
+    transform: translateX(5px);
+    background: var(--light-bg);
+}
+
+.services-list i, .trust-list i {
+    color: var(--accent-color);
+    font-size: 1.1rem;
+    width: 20px;
+    text-align: center;
+}
+
+.delivery-info {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 1rem;
+    padding: 1.5rem;
+    background: linear-gradient(135deg, var(--primary-color), var(--secondary-color));
+    color: var(--white);
+    border-radius: 12px;
+    font-weight: 500;
+}
+
+.delivery-info p {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+@media (max-width: 600px) {
+    .services-list, .trust-list {
+        grid-template-columns: 1fr;
+    }
+    
+    .delivery-info {
+        flex-direction: column;
+        align-items: flex-start;
+    }
 }
 
 @media (max-width: 900px) {
@@ -868,15 +939,6 @@ li{
     border: 2px solid rgba(108, 79, 153, 0.2);
     position: relative;
     overflow: hidden;
-}
-
-.services-highlight::before {
-    content: '✨';
-    position: absolute;
-    top: 15px;
-    right: 15px;
-    font-size: 1.5rem;
-    animation: pulse 2s infinite;
 }
 
 .services-link {
